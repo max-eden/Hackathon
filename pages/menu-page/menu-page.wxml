@@ -1,0 +1,12 @@
+<!--pages/menu-page/menu-page.wxml-->
+<view style="font-weight: bold">McDonald's Xnode Store</view>
+
+<view>
+  <button bindtap="submitOrder" data-mealid="{{meal.id}}" data-mealprice='{{meal.meal_price}}' wx:for="{{meals}}" wx:for-item="meal" style='width: 280px; margin: 10px'>
+  <image src="{{meal.picture}}" style="height: 40px; width: 40px; "></image>
+  {{meal.meal_name}} - ${{meal.meal_price}}</button>
+</view>
+
+<view style='text-align: center; border: 1px black solid'>Total Price: {{orderPrice}}</view>
+
+<button bindtap="navigateToConfirmation" type='primary'>Order</button>
