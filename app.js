@@ -11,7 +11,13 @@ App({
     const clientID = 'f264e4593a8a382c366e' // The ClientID received by the backend
     wx.BaaS.init(clientID)
   },
+  
   globalData: {
-    userInfo: null
+    userInfo: wx.getStorageSync('userInfo'),
   }
+
 })
+
+    // 登录
+
+
