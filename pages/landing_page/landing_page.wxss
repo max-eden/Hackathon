@@ -1,0 +1,22 @@
+/* pages/landing_page/landing_page.wxss */
+.card {
+  height:50vh;
+  width:100%;
+  background-position-x: -200vw;
+  padding:30px;
+}
+
+
+.button{
+  padding: 15px 25px;
+  color: #FFF;
+  background: rgb(240,160,160);
+  font-weight: bold;
+  border-radius: 30px;
+  opacity:60%;
+  transition: 0.5s;
+}
+
+.button:hover{
+  opacity:100%;
+}

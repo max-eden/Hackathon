@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/landing_page/landing_page",
+          "pathName": "pages/landing_page/landing_page",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
