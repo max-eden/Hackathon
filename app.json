@@ -2,7 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/landing_page/landing_page"
+    "pages/landing_page/landing_page",
     "pages/menu-page/menu-page"
   ],
   "window":{
@@ -19,11 +19,6 @@
   },
 
   "style": "v2",
-  "sitemapLocation": "sitemap.json",
-  "plugins": {
-    "sdkPlugin": {
-      "version": "2.3.0",
-      "provider": "wxc6b86e382a1e3294"
-    }
-  }
+  "sitemapLocation": "sitemap.json"
+
 }
