@@ -12,8 +12,12 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/landing_page/landing_page",
+          "name": "landing page",
           "pathName": "pages/landing_page/landing_page",
+        },
+        {
+          "name": "menu-page",
+          "pathName": "pages/menu-page/menu-page",
           "scene": null
         }
       ]
