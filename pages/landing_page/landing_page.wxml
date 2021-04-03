@@ -1,0 +1,12 @@
+<!--pages/landing_page/landing_page.wxml-->
+
+  <view class="card">
+    <view class="image">
+      <image src="https://cloud-minapp-39811.cloud.ifanrusercontent.com/1lSaErsgX9xc0pw0.jpeg"></image>
+    </view>
+  </view>
+  
+  <view class="btn-area">
+    <button class="button"  bindtap="userInfoHandler">Start</button>
+  </view>
+
