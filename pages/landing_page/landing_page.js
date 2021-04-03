@@ -1,41 +1,66 @@
 // pages/landing_page/landing_page.js
 Page({
 
-
+  /**
+   * Page initial data
+   */
   data: {
-    Image:[],
-    currentUser: null
+
   },
 
-
+  /**
+   * Lifecycle function--Called when page load
+   */
   onLoad: function (options) {
-    let Image = new wx.BaaS.File()
-    // Image.get('606825afaef83205fe78f759').then((res) => {
-    //   console.log(res)
-    //   this.setData({
-    //     Image: res.data
-    //   })
-    //   // success
-    // }, err => {
-    // // err
-    // })
+
   },
 
-  userInfoHandler: function(data) {
-    const self = this
-    wx.BaaS.auth.loginWithWechat(data).then((res) => {
-      console.log('userInfo', res)
-      self.setData({
-        currentUser: res
-      })
-      wx.setStorageSync('userInfo', res)
-      getApp().globalData.userInfo = res
-    }, (err) => {
+  /**
+   * Lifecycle function--Called when page is initially rendered
+   */
+  onReady: function () {
 
-    })
-    wx.navigateTo({
-      url: `/pages/menu-page/menu-page`,
-    });
+  },
+
+  /**
+   * Lifecycle function--Called when page show
+   */
+  onShow: function () {
+
+  },
+
+  /**
+   * Lifecycle function--Called when page hide
+   */
+  onHide: function () {
+
+  },
+
+  /**
+   * Lifecycle function--Called when page unload
+   */
+  onUnload: function () {
+
+  },
+
+  /**
+   * Page event handler function--Called when user drop down
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * Called when page reach bottom
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * Called when user click on the top right corner to share
+   */
+  onShareAppMessage: function () {
+
   }
-
 })
