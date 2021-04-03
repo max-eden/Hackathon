@@ -10,6 +10,11 @@ App({
 
     const clientID = 'f264e4593a8a382c366e' // The ClientID received by the backend
     wx.BaaS.init(clientID)
+    wx.BaaS.auth.anonymousLogin().then(user => {
+      console.log(user)
+    }).catch(err => {
+      // HError
+    })
   },
   
   globalData: {

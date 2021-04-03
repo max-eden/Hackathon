@@ -1,7 +1,5 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
     "pages/landing_page/landing_page",
     "pages/menu-page/menu-page"
   ],

@@ -1,13 +1,9 @@
 // pages/landing_page/landing_page.js
 Page({
-
-
   data: {
     Image:[],
     currentUser: null
   },
-
-
   onLoad: function (options) {
     let Image = new wx.BaaS.File()
     // Image.get('606825afaef83205fe78f759').then((res) => {
