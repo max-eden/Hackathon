@@ -1,7 +1,7 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/menu-page/menu-page"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,5 +10,11 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "sdkPlugin": {
+      "version": "2.3.0",
+      "provider": "wxc6b86e382a1e3294" 
+    }
+  }
 }

@@ -1,0 +1,6 @@
+<!--pages/menu-page/menu-page.wxml-->
+<view style="font-weight: bold">McDonald's Xnode Store</view>
+
+<view>
+  <button bindtap="submitOrder" wx:for="{{meals}}" wx:for-item="meal" data-mealid="{{meal.id}}" type="warn">{{meal.name}} - ${{meal.price}}</button>
+</view>

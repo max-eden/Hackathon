@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -41,7 +41,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.16.0",
-  "appid": "wx2b7b9e043e78b084",
+  "appid": "wx55dc6f73ebec955d",
   "projectname": "Hackathon",
   "debugOptions": {
     "hidedInDevtools": []
